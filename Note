@@ -1,0 +1,51 @@
+https://tutorialsninja.com/demo/
+
+---------------Day 50-----------------------
+
+Logging record all the events in the form of text.
+
+Log Levels All Trace < Debug < Info < Warn < Error < Fatal < Off
+
+Appenders---> where to generate logs (Console/File) 
+loggers-->what type of logs generate (All < Trace < Debug < Info < Warn < Error < Fatal < Off)
+
+----------------------------Day 53-------------------------------
+
+Standalone Setup (Single machine):
+1. Download selenium-server-4.15.0.jar and place it somewhere.
+2. Run below command to start Selenium Grid java -jar selenium-server-4.15.0.jar standalone
+3. URL to see sessions: http://localhost:4444/
+
+Hub & Node Setup (Multiple machines):
+1. Download selenium-server-4.15.0.jar and place it somewhere in both (hub & node) the machines.
+2. Run below command to make machine as hub
+java -jar selenium-server-4.15.0.jar hub
+3. Run below command to make machine as node
+java -jar selenium-server-4.15.0.jar node --hub http://<hub-ip>:4444
+4. URL to see sessions: http://localhost:4444/
+
+------------------------DAY 55----------------------------------
+
+1) create a new local repository (one time)
+git init
+
+2) provided user info to git repo. (one time)
+git config --global user.name "your name"
+git config --global user.email "your email"
+
+3) Adding files/folders to staging/indexing
+git add -A
+-->add all the files and folders to staging
+git add filename
+git add *.java
+git add foldername
+
+4) Commit the code into Local(git) repository
+git commit -m "commit message"
+
+5) connect local repository with remote rep. (One time)
+git remote add origin "https://github.com/pavanoltraining/OpencartV121.git"
+
+6) push the code into remote repository.
+git push origin master
+token: ghp_XI70Ntv7T2oCrvqs8QB38Ss7h2Z0N22E8pnm

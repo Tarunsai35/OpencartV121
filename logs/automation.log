@@ -1,0 +1,13 @@
+17:42:51.226 [main] INFO  testCases.TC001_AccountRegistrationTest - ***************** Starting TC001_AccountRegistrationTest***********
+17:42:51.289 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount
+17:42:51.568 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register
+17:42:53.156 [main] INFO  testCases.TC001_AccountRegistrationTest - open Register page
+17:42:53.173 [main] INFO  testCases.TC001_AccountRegistrationTest - Enter FirstName
+17:42:53.546 [main] INFO  testCases.TC001_AccountRegistrationTest - Enter LastName
+17:42:53.810 [main] INFO  testCases.TC001_AccountRegistrationTest - Enter Email
+17:42:54.308 [main] INFO  testCases.TC001_AccountRegistrationTest - Enter Password
+17:42:54.536 [main] INFO  testCases.TC001_AccountRegistrationTest - Enter ConfirmPassword
+17:42:54.804 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on PrivacyPolicy
+17:42:54.966 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on Continue
+17:42:56.332 [main] INFO  testCases.TC001_AccountRegistrationTest - Confmsg is displayed
+17:42:56.339 [main] INFO  testCases.TC001_AccountRegistrationTest - ***************** Finished TC001_AccountRegistrationTest***********
